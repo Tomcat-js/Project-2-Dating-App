@@ -1,5 +1,4 @@
 body {
-    /* background-color: #deddfa; */
     background: rgb(222,221,250);
     background: radial-gradient(circle, rgba(222,221,250,1) 0%, rgba(255,255,255,1) 100%);
     font-family: 'Niconne', cursive;
@@ -20,16 +19,12 @@ body {
 .info_div {
     text-align: left;
     padding-left: 10%;
-    /* border: solid 5px;
-    border-color: rgb(255, 226, 251); */
     background-color:#fff0f5;
     font-family: 'Caveat', cursive;
 }
 
 .title {
     text-align: center;
-    /* border: solid 5px;
-    border-color: rgb(255, 226, 251); */
     font-family: 'Niconne', cursive;
 }
 
@@ -44,9 +39,7 @@ body {
 .wrapper {
     border: solid 4px rgb(255, 226, 251);
     min-height: 550px;
-    
-    /* max-width: 800px;
-    margin: 0 auto; */
+
 }
 
 .profile_wrapper {
@@ -54,7 +47,6 @@ body {
     display: inline-block;
     margin-bottom: 5%;
     min-width: 350px;
-    /* background-color: #dab8f3; */
     background: rgb(218,184,243);
     background: radial-gradient(circle, rgba(218,184,243,1) 0%, rgba(255,255,255,1) 100%);
     -webkit-box-shadow: 32px 26px 37px -30px rgba(0,0,0,0.46);
@@ -116,4 +108,35 @@ span {
 
 link {
     font-family: 'Niconne', cursive;
+}
+
+.logo {
+    font-size: 300%;
+}
+
+.celeb {
+    color: #ce0f3d;
+}
+
+.subheading {
+    color: black;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,0.885286783042394) 40%, rgba(234,122,215,0.7007481296758105) 79%);
+    font-family: 'Caveat', cursive;
+    -webkit-box-shadow: 32px 26px 37px -30px rgba(0,0,0,0.46);
+    -moz-box-shadow: 32px 26px 37px -30px rgba(0,0,0,0.46);
+    box-shadow: 32px 26px 37px -30px rgba(0,0,0,0.46);
+}
+
+.login {
+    margin: 1rem;
+    font-size: 200%;
+    text-decoration: none;
+}
+
+.love_search {
+    text-align: center;
+    margin: 1rem;
+    font-size: 200%;
+    text-decoration: none;
 }

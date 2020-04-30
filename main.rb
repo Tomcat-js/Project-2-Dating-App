@@ -105,7 +105,7 @@ celebs = [
     :image_url => "https://d3lp4xedbqa8a5.cloudfront.net/s3/digital-cougar-assets/now/2020/03/06/1583454578945_tpir.jpg?width=768&height=639&quality=75&mode=crop&anchor=topcenter",
     :occupation => "Host with the most",
     :interests => "Board games",
-    :idea_of_a_good_time => "A night on couch",
+    :idea_of_a_good_time => "A night on the couch",
     :looking_for_in_a_partner => "A sense of humour"
   },
   { :name => "Hermes Endakis", 
