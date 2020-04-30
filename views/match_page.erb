@@ -1,0 +1,18 @@
+<div class="profile_container">
+    <section class="profile_wrapper">
+        <h1 class="title"><%= user[:name] %></h1>
+        <img class= "pic" src= "<%= user[:image_url] %>" alt="">
+        <div class= "info_div">
+            <p> <span>Gender: </span> <%= user[:gender] %></p>
+            <p> <span>Occupation:</span> <%= user[:occupation] %></p>
+            <p> <span>Interests:</span> <%= user[:interests] %></p>
+            <p> <span>Idea of a good time:</span> <%= user[:idea_of_a_good_time] %></p>
+            <p> <span>Looking for in a partner:</span> <%= user[:looking_for_in_a_partner] %></p>
+        </div>
+
+        <div class="update_delete">
+            <a class="love_search" href="/match_page">search for love</a>
+        </div>
+    </section>
+    
+</div>

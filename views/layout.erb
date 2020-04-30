@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hello World</title>
+  <link rel='stylesheet' href='/stylesheets/main.css'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Cinzel+Decorative:wght@700&family=Dancing+Script:wght@700&family=Fondamento&family=Niconne&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section class="wrapper">
+    <Div class="logged_in">
+      <% if logged_in? %>
+      <p class="in"> logged in as <%= current_user["email"] %> </p>
+
+      <form action="/logout" method="post">
+        <input type="hidden" name="_method" value="delete">
+        <button class="logout">logout</button>
+      
+      </form>
+    </Div>
+  
+
+    <% end %>
+
+    <%= yield %>
+  </section> 
+  <script src="/javascripts/application.js"></script>
+</body>
+</html>
