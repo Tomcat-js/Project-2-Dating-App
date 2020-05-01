@@ -71,7 +71,12 @@ get '/create_profile' do
 end
 
 get '/update_profile' do
-  erb(:update_profile)
+  user = find_one_user_by_id(session[:user_id])
+  if user['id'] == '41'
+    redirect '/show_profile'
+  else
+    erb(:update_profile)
+  end
 end
 
 get '/match_page' do
@@ -81,7 +86,7 @@ celebs = [
     :occupation => "Toadie",
     :interests => "Sun, surf, and sex",
     :idea_of_a_good_time => "Having a good old yarn",
-    :looking_for_in_a_partner => "A girl who knows what she wants"
+    :looking_for_in_a_partner => "A party girl"
   },
   { :name => "Sam Newman",  
     :image_url => "https://cdn.newsapi.com.au/image/v1/361ebab2b9476ecdf6dd1e895328e72f?width=650",
@@ -94,7 +99,7 @@ celebs = [
     :image_url => "https://www.bandt.com.au/information/uploads/2017/05/ae77f77de92f32dbe50bd6e82ef8302b.jpg",
     :occupation => "What?",
     :interests => "Jokes'n that",
-    :idea_of_a_good_time => "Bathing in my own filth",
+    :idea_of_a_good_time => "Looking in the mirror",
     :looking_for_in_a_partner => "Sex"
   },
   { :name => "Larry Emdur",  
@@ -122,7 +127,7 @@ celebs = [
     :image_url => "https://oversixtydev.blob.core.windows.net/media/7819537/1.jpg",
     :occupation => "Alf",
     :interests => "Bit a golf",
-    :idea_of_a_good_time => "Stuth I don't know",
+    :idea_of_a_good_time => "Struth, I don't know",
     :looking_for_in_a_partner => "A Ferrari chassis"
   },
   { :name => "Alan Jones",  
@@ -146,6 +151,27 @@ celebs = [
     :idea_of_a_good_time => "Reading philosophy",
     :looking_for_in_a_partner => "Wisdom"
   },
+  { :name => "Karl Stefanovic", 
+    :image_url => "https://d2nzqyyfd6k6c7.cloudfront.net/styles/nova_evo_landscape/s3/article/thumbnail/karl_stefanovic_0.jpg?itok=DEU-21SC",
+    :occupation => "Professional larrikin",
+    :interests => "Sundays",
+    :idea_of_a_good_time => "Havin' a laugh",
+    :looking_for_in_a_partner => "Someone younger"
+  },
+  { :name => "Tony Abbott", 
+    :image_url => "https://sportsocratic.com/wp-content/uploads/2016/09/140923-tony-abbott-speedos.jpg",
+    :occupation => "Illegal Avian Importer (Budgie Smuggler)",
+    :interests => "Beaches and BBQs",
+    :idea_of_a_good_time => "Watersports",
+    :looking_for_in_a_partner => "A good Christian lass"
+  },
+  { :name => "George Calombaris", 
+    :image_url => "https://nnimgt-a.akamaihd.net/transform/v1/crop/frm/silverstone-feed-data/b86ade7b-d751-4d6e-966a-e7e07a33b1d6.jpg/r0_0_800_600_w1200_h678_fmax.jpg",
+    :occupation => "Chef",
+    :interests => "Frugality",
+    :idea_of_a_good_time => "Eating",
+    :looking_for_in_a_partner => "An appetite for love"
+  }
 
 ]
   user = celebs.sample
@@ -159,9 +185,14 @@ post '/create_profile' do
 end
 
 delete '/profile' do
-  delete_profile(params[:id])
-  session[:user_id] = nil
-  redirect '/'
+  user = find_one_user_by_id(session[:user_id])
+  if user['id'] == '41'
+    redirect '/show_profile'
+  else
+    delete_profile(params[:id])
+    session[:user_id] = nil
+    redirect '/'
+  end
 end
 
 

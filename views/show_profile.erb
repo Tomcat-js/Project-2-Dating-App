@@ -1,7 +1,7 @@
 <div class="profile_container">
     <section class="profile_wrapper">
         <h1 class="title"><%= user["name"] %></h1>
-        <img class= "pic" src= "<%= user['image_url'] %>" alt="">
+        <img class= "own_pic" src= "<%= user['image_url'] %>" alt="">
         <div class= "info_div">
             <p> <span>Occupation:</span> <%= user["occupation"] %></p>
             <p> <span>Interests:</span> <%= user["interests"] %></p>
@@ -12,29 +12,26 @@
         <div class="update_delete">
             <a class="love_search login" href="/match_page">search for love</a>
             <a class="small" href="/update_profile">update profile</a>
-
-            <form action="/profile" method="post">
-            <input type="hidden" name="id" value="<%= user["id"] %>">
-            <input type="hidden" name="_method" value="delete">
-            <button class="logout">logout</button>
-            </form>
+        <form action="/logout" method="post">
+          <input type="hidden" name="_method" value="delete">
+          <button class="logout">logout</button>
+        </form>
         </div>
     </section>
+
     <section class="wrapper">
       <Div class="logged_in">
         <% if logged_in? %>
         <p class="in"> logged in as <%= current_user["email"] %> </p>
 
-        <form action="/logout" method="post">
-          <input type="hidden" name="_method" value="delete">
-          <button class="delete">delete account</button>
-        
-        </form>
+          <form action="/profile" method="post">
+            <input type="hidden" name="id" value="<%= user["id"] %>">
+            <input type="hidden" name="_method" value="delete">
+            <button class="delete">delete account</button>
+          </form> 
       </Div>
   
-
     <% end %>
-
 
   </section> 
     

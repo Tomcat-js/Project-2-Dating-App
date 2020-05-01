@@ -7,13 +7,10 @@ body {
 .pic {
     width:  250px;
     height: 250px;
-    background-size: cover;
+    background-size: contain;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    /* width: 50%; */
-    /* max-width: 250px;
-    max-height: 300px; */
     -webkit-box-shadow: 32px 26px 37px -30px rgba(0,0,0,0.46);
     -moz-box-shadow: 32px 26px 37px -30px rgba(0,0,0,0.46);
     box-shadow: 32px 26px 37px -30px rgba(0,0,0,0.46);
@@ -179,4 +176,19 @@ button {
   
 .redirect {
     text-align: center;
+}
+
+.own_pic {
+    /* width:  50%;
+    height: 250px; */
+    background-size: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 250px;
+    max-height: 300px;
+    -webkit-box-shadow: 32px 26px 37px -30px rgba(0,0,0,0.46);
+    -moz-box-shadow: 32px 26px 37px -30px rgba(0,0,0,0.46);
+    box-shadow: 32px 26px 37px -30px rgba(0,0,0,0.46);
 }
