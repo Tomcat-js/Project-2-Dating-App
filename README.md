@@ -1,4 +1,4 @@
-# # Celebrelate
+# Celebrelate
 [See Here On Smartphone](https://celebrelation.herokuapp.com/)
 
 ### Brief 
