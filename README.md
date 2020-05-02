@@ -17,4 +17,3 @@ The biggest challanges for this project were storing and acessing user informati
 ![Wireframe 1](https://imgur.com/kunAxAq.png)
 ![Wireframe 2](https://imgur.com/npgPnv5.png)
 ![Wireframe 3](https://imgur.com/fpfotN1.png)
-
