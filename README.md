@@ -14,8 +14,10 @@ Build a full-stack database backed application
 ### Key Challenges 
 The biggest challanges for this project were storing and acessing user information in the database. Also encripting the data added more complexity to the project. I originally planned to have a reponsive design but in the end focused on just making it specifically for smartphones. 
 
-![Wireframe 1](https://imgur.com/CF5A2QD.png)
+### Original wireframe 
+
 ![Wireframe 2](https://imgur.com/7eWTE5P.png)
 ![Wireframe 3](https://imgur.com/nDKhF0H.png)
+![Wireframe 1](https://imgur.com/CF5A2QD.png)
 
 
