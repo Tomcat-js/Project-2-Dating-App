@@ -72,7 +72,7 @@ end
 
 get '/update_profile' do
   user = find_one_user_by_id(session[:user_id])
-  if user['id'] == '41'
+  if user['id'] == '46'
     redirect '/show_profile'
   else
     erb(:update_profile)
@@ -186,7 +186,7 @@ end
 
 delete '/profile' do
   user = find_one_user_by_id(session[:user_id])
-  if user['id'] == '41'
+  if user['id'] == '46'
     redirect '/show_profile'
   else
     delete_profile(params[:id])

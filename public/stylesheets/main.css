@@ -5,9 +5,8 @@ body {
 }
 
 .pic {
-    width:  250px;
-    height: 250px;
-    background-size: contain;
+    width:  480px;
+    height: 480px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -17,18 +16,21 @@ body {
 }
 
 .info_div {
+    font-size: 210%;
     text-align: left;
-    padding-left: 10%;
+    padding-left: 32%;
     background-color:#fff0f5;
     font-family: 'Caveat', cursive;
 }
 
 .title {
+    font-size: 250%;
     text-align: center;
     font-family: 'Niconne', cursive;
 }
 
 .update_delete {
+    font-size: 200%;
     text-align: center;
 }
 
@@ -46,7 +48,7 @@ body {
     border: solid 4px rgb(255, 226, 251);
     display: inline-block;
     margin-bottom: 5%;
-    min-width: 350px;
+    min-width: 1200px;
     background: rgb(218,184,243);
     background: radial-gradient(circle, rgba(218,184,243,1) 0%, rgba(255,255,255,1) 100%);
     -webkit-box-shadow: 32px 26px 37px -30px rgba(0,0,0,0.46);
@@ -63,10 +65,11 @@ body {
 }
 
 .logout {
-    margin: 0;
+    margin: 0;   
 }
 
 .in {
+    font-size: 200%;
     margin: 0;
 }
 
@@ -88,13 +91,15 @@ form {
     text-align: center;
 }
 
+
 input {
     padding: 10px;
-    font-size: inherit;
+    font-size: 200%;
 }
 
 .form_title {
     text-align: center;
+    font-size: 300%;
 }
 .submit {
     display: block;
@@ -111,15 +116,16 @@ link {
 }
 
 .logo {
-    font-size: 300%;
+    font-size: 600%;
     text-align: center;
 }
 
-.celeb {
+.flower {
     color: #ce0f3d;
 }
 
 .subheading {
+    font-size: 350%;
     color: black;
     background: rgb(255,255,255);
     background: radial-gradient(circle, rgba(255,255,255,0.885286783042394) 40%, rgba(234,122,215,0.7007481296758105) 79%);
@@ -132,7 +138,14 @@ link {
 
 .login {
     margin: 1rem;
-    font-size: 200%;
+    font-size: 100%;
+    text-decoration: none;
+    text-align: center;
+}
+
+.sign_log {
+    margin: 1rem;
+    font-size: 300%;
     text-decoration: none;
     text-align: center;
 }
@@ -141,7 +154,7 @@ link {
     display: block;
     text-align: center;
     margin: 1rem;
-    font-size: 200%;
+    font-size: 300%;
     text-decoration: none;
     color: #ce0f3d;
 }
@@ -152,43 +165,251 @@ link {
 
 .small {
     text-decoration: none;
+    font-size: 150%;
 }
 
 button {
+    font-size: 20px;
     background-color: #fff0f5;
     color: black;
     border: 0.5px solid rgb(86, 29, 140); 
-  }
+}
 
-  button:hover {color: #ce0f3d;}
+button:hover {color: #ce0f3d;}
 
-  a:hover {color: rgb(223, 55, 214);}
+a:hover {color: rgb(223, 55, 214);}
 
- .heart {
-     text-align: center;
-     font-size: 200%;
-     color: #ce0f3d;
- }
+.heart {
+    text-align: center;
+    font-size: 400%;
+    color: #ce0f3d;
+}
 
- .slogan {
-     text-align: center;
- }
+.slogan {
+    text-align: center;
+    font-size: 250%;
+}
   
 .redirect {
     text-align: center;
+    font-size: 200%;
 }
 
 .own_pic {
-    /* width:  50%;
-    height: 250px; */
     background-size: cover;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    max-width: 250px;
-    max-height: 300px;
+    width: 30%;
     -webkit-box-shadow: 32px 26px 37px -30px rgba(0,0,0,0.46);
     -moz-box-shadow: 32px 26px 37px -30px rgba(0,0,0,0.46);
     box-shadow: 32px 26px 37px -30px rgba(0,0,0,0.46);
+}
+
+
+@media only screen 
+  and (max-device-width: 1400px)
+  and (orientation: portrait) {
+
+    body {
+        background: rgb(222,221,250);
+        background: radial-gradient(circle, rgba(222,221,250,1) 0%, rgba(255,255,255,1) 100%);
+        font-family: 'Niconne', cursive;
+    }
+    
+    .pic {
+        width:  220px;
+        height: 220px;
+        background-size: contain;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        -webkit-box-shadow: 32px 26px 37px -30px rgba(0,0,0,0.46);
+        -moz-box-shadow: 32px 26px 37px -30px rgba(0,0,0,0.46);
+        box-shadow: 32px 26px 37px -30px rgba(0,0,0,0.46);
+    }
+    
+    .info_div {
+        font-size: 100%;
+        text-align: left;
+        padding-left: 10%;
+        background-color:#fff0f5;
+        font-family: 'Caveat', cursive;
+    }
+    
+    .title {
+        font-size: 100%;
+        text-align: center;
+        font-family: 'Niconne', cursive;
+    }
+    
+    .update_delete {
+        font-size: 100%;
+        text-align: center;
+    }
+    
+    .logged_in {
+        text-align: center;
+        margin: 2px;
+    }
+    
+    .wrapper {
+        border: solid 4px rgb(255, 226, 251);
+        min-height: 550px;
+    }
+    
+    .profile_wrapper {
+        border: solid 4px rgb(255, 226, 251);
+        display: inline-block;
+        margin-bottom: 5%;
+        min-width: 350px;
+        background: rgb(218,184,243);
+        background: radial-gradient(circle, rgba(218,184,243,1) 0%, rgba(255,255,255,1) 100%);
+        -webkit-box-shadow: 32px 26px 37px -30px rgba(0,0,0,0.46);
+        -moz-box-shadow: 32px 26px 37px -30px rgba(0,0,0,0.46);
+        box-shadow: 32px 26px 37px -30px rgba(0,0,0,0.46);
+    }
+    
+    .profile_container {
+        text-align: center;
+    }
+    
+    .delete {
+        margin: 1rem;
+    }
+    
+    .logout {
+        margin: 0;
+    }
+    
+    .in {
+        font-size: 100%;
+        margin: 0;
+    }
+    
+    p {
+        font-size: 100%;
+    }
+    
+    .update {
+        font-size: 80%;
+    }
+    
+    .signup_wrapper {
+        text-align: center;
+    }
+    
+    form {
+        margin: 20px auto;
+        width: 320px;
+        text-align: center;
+    }
+    
+    input {
+        padding: 10px;
+        font-size: inherit;
+    }
+    
+    .form_title {
+        text-align: center;
+    }
+    .submit {
+        display: block;
+        margin: 8% auto;
+    }
+    
+    span {
+        font-family: 'Niconne', cursive;
+        color: grey;
+    }
+    
+    link {
+        font-family: 'Niconne', cursive;
+    }
+    
+    .logo {
+        font-size: 300%;
+        text-align: center;
+    }
+    
+    .flower {
+        color: #ce0f3d;
+    }
+    
+    .subheading {
+        font-size: 200%;
+        color: black;
+        background: rgb(255,255,255);
+        background: radial-gradient(circle, rgba(255,255,255,0.885286783042394) 40%, rgba(234,122,215,0.7007481296758105) 79%);
+        font-family: 'Caveat', cursive;
+        -webkit-box-shadow: 32px 26px 37px -30px rgba(0,0,0,0.46);
+        -moz-box-shadow: 32px 26px 37px -30px rgba(0,0,0,0.46);
+        box-shadow: 32px 26px 37px -30px rgba(0,0,0,0.46);
+        text-align: center;
+    }
+    
+    .login {
+        margin: 1rem;
+        font-size: 200%;
+        text-decoration: none;
+        text-align: center;
+    }
+    
+    .love_search {
+        display: block;
+        text-align: center;
+        margin: 1rem;
+        font-size: 200%;
+        text-decoration: none;
+        color: #ce0f3d;
+    }
+    
+    .index {
+        text-align: center;
+    }
+    
+    .small {
+        text-decoration: none;
+    }
+    
+    button {
+        font-size: 10px;
+        background-color: #fff0f5;
+        color: black;
+        border: 0.5px solid rgb(86, 29, 140); 
+      }
+    
+      button:hover {color: #ce0f3d;}
+    
+      a:hover {color: rgb(223, 55, 214);}
+    
+     .heart {
+         text-align: center;
+         font-size: 200%;
+         color: #ce0f3d;
+     }
+    
+     .slogan {
+         text-align: center;
+         font-size: 100%;
+     }
+      
+    .redirect {
+        font-size: 100%;
+        text-align: center;
+    }
+    
+    .own_pic {
+        background-size: cover;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        max-width: 250px;
+        max-height: 300px;
+        -webkit-box-shadow: 32px 26px 37px -30px rgba(0,0,0,0.46);
+        -moz-box-shadow: 32px 26px 37px -30px rgba(0,0,0,0.46);
+        box-shadow: 32px 26px 37px -30px rgba(0,0,0,0.46);
+    }
+      
 }
