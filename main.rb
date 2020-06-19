@@ -81,29 +81,29 @@ end
 
 get '/match_page' do
 celebs = [
-  { :name => "Ryan Moloney", 
-    :image_url => "https://www.pedestrian.tv/content/uploads/2019/03/Toadfishrebecchi-637x375.png",
-    :occupation => "Toadie",
+  { :name => "James Thomas", 
+    :image_url => "https://images.fineartamerica.com/images-medium-large-5/7-happy-elderly-man-kate-jacobsscience-photo-library.jpg",
+    :occupation => "Doctor",
     :interests => "Sun, surf, and sex",
     :idea_of_a_good_time => "Having a good old yarn",
     :looking_for_in_a_partner => "A party girl"
   },
-  { :name => "Sam Newman",  
-    :image_url => "https://cdn.newsapi.com.au/image/v1/361ebab2b9476ecdf6dd1e895328e72f?width=650",
-    :occupation => "Talentless celebrity",
-    :interests => "Myself",
-    :idea_of_a_good_time => "A good cry wank",
-    :looking_for_in_a_partner => "A female version of me"
+  { :name => "Brian Eaton",  
+    :image_url => "https://i.pinimg.com/originals/0e/67/2e/0e672ed7c84f7ccceb97add47b35c920.jpg",
+    :occupation => "Musician (bass player)",
+    :interests => "Fingering the G string",
+    :idea_of_a_good_time => "Smoking weed",
+    :looking_for_in_a_partner => "Love"
   },
-  { :name => "Kyle Sandilands",  
-    :image_url => "https://www.bandt.com.au/information/uploads/2017/05/ae77f77de92f32dbe50bd6e82ef8302b.jpg",
-    :occupation => "What?",
-    :interests => "Jokes'n that",
-    :idea_of_a_good_time => "Looking in the mirror",
-    :looking_for_in_a_partner => "Sex"
+  { :name => "Simon Visser",  
+    :image_url => "https://cdn.pixabay.com/photo/2017/08/02/14/54/people-2571950__340.jpg",
+    :occupation => "Entrepreneur",
+    :interests => "Playstation",
+    :idea_of_a_good_time => "Kicking back with a whiskey",
+    :looking_for_in_a_partner => "Beauty, bootie and hooters"
   },
-  { :name => "Larry Emdur",  
-    :image_url => "https://d3lp4xedbqa8a5.cloudfront.net/s3/digital-cougar-assets/now/2020/03/06/1583454578945_tpir.jpg?width=768&height=639&quality=75&mode=crop&anchor=topcenter",
+  { :name => "Larry Longing",  
+    :image_url => "https://www.catholiccaredbb.org.au/wp-content/uploads/iStock-1012230432_oldmanwithcane.jpg",
     :occupation => "Host with the most",
     :interests => "Board games",
     :idea_of_a_good_time => "A night on the couch",
@@ -116,10 +116,10 @@ celebs = [
     :idea_of_a_good_time => "Stopping those meddling  kids",
     :looking_for_in_a_partner => "Beauty"
   },
-  { :name => "Jason Donovan",  
-    :image_url => "https://img.discogs.com/Ht-WbYVFUr-2FNMCXHmhelB-Wf8=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-1223507-1545570250-6987.jpeg.jpg",
-    :occupation => "Talent",
-    :interests => "Grooming",
+  { :name => "Beatrice Humblebum",  
+    :image_url => "https://i.pinimg.com/736x/22/bb/e6/22bbe6ef478246f184a6618f5bb4e01c.jpg",
+    :occupation => "Quantum physicist",
+    :interests => "Makeup",
     :idea_of_a_good_time => "Swooning",
     :looking_for_in_a_partner => "Booty"
   },
@@ -134,43 +134,43 @@ celebs = [
     :image_url => "https://assets.2ser.com/wp-content/uploads/2019/09/25012554/Screen-Shot-2019-09-24-at-3.25.28-pm-685x368.png",
     :occupation => "Healer",
     :interests => "Feminist theory",
-    :idea_of_a_good_time => "Expressing the fire of the earth mother through interpretative dance",
+    :idea_of_a_good_time => "Interpretive dance",
     :looking_for_in_a_partner => "A strong feminine energy"
   },
-  { :name => "Eddie McGuire", 
-    :image_url => "https://cdn.newsapi.com.au/image/v1/3faa74eb4dd7b27e827b1eca3400e91e?width=1024",
+  { :name => "Louise Dewberry", 
+    :image_url => "https://p1.piqsels.com/preview/394/535/785/portrait-elderly-woman-old-face-wrinkles-person.jpg",
     :occupation => "Bloody AFL mate",
     :interests => "Footy mate!",
     :idea_of_a_good_time => "Footy mate!",
-    :looking_for_in_a_partner => "Foot... fetish"
+    :looking_for_in_a_partner => "A bloody top bloke"
   },
-  { :name => "Dickie Knee", 
+  { :name => "Richard Knee", 
     :image_url => "https://www.blackman.com.au/DICKIE%20KNEE.png",
     :occupation => "Entertainer",
     :interests => "Great European literature",
     :idea_of_a_good_time => "Reading philosophy",
     :looking_for_in_a_partner => "Wisdom"
   },
-  { :name => "Karl Stefanovic", 
-    :image_url => "https://d2nzqyyfd6k6c7.cloudfront.net/styles/nova_evo_landscape/s3/article/thumbnail/karl_stefanovic_0.jpg?itok=DEU-21SC",
-    :occupation => "Professional larrikin",
+  { :name => "Carole Widdleton", 
+    :image_url => "https://image1.masterfile.com/getImage/Njk1LTA1NzcyNjY3ZW4uMDAwMDAwMDA=AEzmwl/695-05772667en_Masterfile.jpg",
+    :occupation => "Retired",
     :interests => "Sundays",
     :idea_of_a_good_time => "Havin' a laugh",
     :looking_for_in_a_partner => "Someone younger"
   },
-  { :name => "Tony Abbott", 
-    :image_url => "https://sportsocratic.com/wp-content/uploads/2016/09/140923-tony-abbott-speedos.jpg",
-    :occupation => "Illegal Avian Importer (Budgie Smuggler)",
-    :interests => "Beaches and BBQs",
-    :idea_of_a_good_time => "Watersports",
-    :looking_for_in_a_partner => "A good Christian lass"
+  { :name => "Jenny Shutterstock", 
+    :image_url => "https://i.pinimg.com/originals/80/72/7b/80727b340b3d04d84740f4eae2c93ef4.jpg",
+    :occupation => "Badass",
+    :interests => "Ice",
+    :idea_of_a_good_time => "A bangin' bushdoof",
+    :looking_for_in_a_partner => "An accomplice"
   },
-  { :name => "George Calombaris", 
-    :image_url => "https://nnimgt-a.akamaihd.net/transform/v1/crop/frm/silverstone-feed-data/b86ade7b-d751-4d6e-966a-e7e07a33b1d6.jpg/r0_0_800_600_w1200_h678_fmax.jpg",
-    :occupation => "Chef",
-    :interests => "Frugality",
-    :idea_of_a_good_time => "Eating",
-    :looking_for_in_a_partner => "An appetite for love"
+  { :name => "Harrold Hiddenpayne", 
+    :image_url => "https://thumbs.dreamstime.com/b/portrait-elderly-man-wearing-glasses-closeup-smiling-camera-34462045.jpg",
+    :occupation => "Retired",
+    :interests => "Morbid",
+    :idea_of_a_good_time => "Endless sleep",
+    :looking_for_in_a_partner => "A way out"
   }
 
 ]
