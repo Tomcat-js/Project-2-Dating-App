@@ -1,20 +1,20 @@
-# Celebrelate
-## A Smartphone Dating App 
-[See Here On Smartphone](https://celebrelation.herokuapp.com/)
-Can't be bothered creating a profile? Log in as jackie_o@gmail.com (Password: unicorn)
+# Elderflower
+## A dating app for the elderly 
+[See Here](https://celebrelation.herokuapp.com/)
+Can't be bothered creating a profile? Log in as geraldine@gmail.com (Password: 123)
  <hr /> 
 
 ### Brief  <hr /> 
 Build a full-stack database backed application
 
 ### Features  <hr /> 
-* Encripted passwords
-* Designed for smartphone
+* Encrypted passwords
+* Responsive Design
 * Full CRUD (Create, Read, Update, Delete) capabilities.
 * Tacky colour scheme and fonts 
 
 ### Key Challenges  <hr /> 
-The biggest challanges for this project were storing and acessing user information in the database. Also encripting the data added more complexity to the project. I originally planned to have a reponsive design but in the end focused on just making it specifically for smartphones. 
+The biggest challenge for this project was storing user information in the database securely with password encryption. Ensuring the app was responsive and resized for smartphones was also important and required a bit more work. Finally, designing the app to be ugly enough to guarantee all users understood that it was a joke proved to be the funnest challenge of all.       
 
 ### Original Wireframe  <hr /> 
 
