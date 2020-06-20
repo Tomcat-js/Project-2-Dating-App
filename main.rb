@@ -83,7 +83,7 @@ get '/match_page' do
 celebs = [
   { :name => "James Thomas", 
     :image_url => "https://images.fineartamerica.com/images-medium-large-5/7-happy-elderly-man-kate-jacobsscience-photo-library.jpg",
-    :occupation => "Doctor",
+    :occupation => "Doctor (of love)",
     :interests => "Sun, surf, and sex",
     :idea_of_a_good_time => "Having a good old yarn",
     :looking_for_in_a_partner => "A party girl"
@@ -160,15 +160,15 @@ celebs = [
   },
   { :name => "Jenny Shutterstock", 
     :image_url => "https://i.pinimg.com/originals/80/72/7b/80727b340b3d04d84740f4eae2c93ef4.jpg",
-    :occupation => "Badass",
-    :interests => "Ice",
-    :idea_of_a_good_time => "A bangin' bushdoof",
+    :occupation => "Hacker",
+    :interests => "Your details",
+    :idea_of_a_good_time => "Doxxing together",
     :looking_for_in_a_partner => "An accomplice"
   },
   { :name => "Harrold Hiddenpayne", 
     :image_url => "https://thumbs.dreamstime.com/b/portrait-elderly-man-wearing-glasses-closeup-smiling-camera-34462045.jpg",
     :occupation => "Retired",
-    :interests => "Morbid",
+    :interests => "Nihilism",
     :idea_of_a_good_time => "Endless sleep",
     :looking_for_in_a_partner => "A way out"
   }
