@@ -84,49 +84,49 @@ celebs = [
   { :name => "James Thomas", 
     :image_url => "https://images.fineartamerica.com/images-medium-large-5/7-happy-elderly-man-kate-jacobsscience-photo-library.jpg",
     :occupation => "Doctor (of love)",
-    :interests => "Sun, surf, and sex",
+    :interests => "Sun, surf, and smooching",
     :idea_of_a_good_time => "Having a good old yarn",
     :looking_for_in_a_partner => "A party girl"
   },
   { :name => "Brian Eaton",  
     :image_url => "https://i.pinimg.com/originals/0e/67/2e/0e672ed7c84f7ccceb97add47b35c920.jpg",
-    :occupation => "Musician (bass player)",
-    :interests => "Fingering the G string",
+    :occupation => "Guru",
+    :interests => "Enlightenment",
     :idea_of_a_good_time => "Smoking weed",
-    :looking_for_in_a_partner => "Love"
+    :looking_for_in_a_partner => "Divinity"
   },
   { :name => "Simon Visser",  
     :image_url => "https://cdn.pixabay.com/photo/2017/08/02/14/54/people-2571950__340.jpg",
     :occupation => "Entrepreneur",
     :interests => "Playstation",
     :idea_of_a_good_time => "Kicking back with a whiskey",
-    :looking_for_in_a_partner => "Beauty, bootie and hooters"
+    :looking_for_in_a_partner => "Beauty'n booty"
   },
   { :name => "Larry Longing",  
     :image_url => "https://www.catholiccaredbb.org.au/wp-content/uploads/iStock-1012230432_oldmanwithcane.jpg",
-    :occupation => "Host with the most",
-    :interests => "Board games",
-    :idea_of_a_good_time => "A night on the couch",
-    :looking_for_in_a_partner => "A sense of humour"
+    :occupation => "More like preoccupation!",
+    :interests => "Yes, I have them",
+    :idea_of_a_good_time => "A night on the town (and off the couch). Sigh.",
+    :looking_for_in_a_partner => "Someone to lean on"
   },
   { :name => "Hermes Endakis",  
     :image_url => "https://external-preview.redd.it/INAFqxreUIk2_V_IbDUSbLWb7Aqo5zb2DfOYKkhN4xs.gif?format=png8&s=c1aed5247f19f357551e17bc75e59061c01577f8",
     :occupation => "Secuity officer or something",
     :interests => "Sailing",
     :idea_of_a_good_time => "Stopping those meddling  kids",
-    :looking_for_in_a_partner => "Beauty"
+    :looking_for_in_a_partner => "Justice"
   },
   { :name => "Beatrice Humblebum",  
     :image_url => "https://i.pinimg.com/736x/22/bb/e6/22bbe6ef478246f184a6618f5bb4e01c.jpg",
-    :occupation => "Quantum physicist",
-    :interests => "Makeup",
-    :idea_of_a_good_time => "Swooning",
-    :looking_for_in_a_partner => "Booty"
+    :occupation => "Who me? I'm not important.",
+    :interests => "What are YOUR interests? :)",
+    :idea_of_a_good_time => "I'm not very good at having a good time.",
+    :looking_for_in_a_partner => "Someone that likes me."
   },
   { :name => "Ray Meagher",  
     :image_url => "https://oversixtydev.blob.core.windows.net/media/7819537/1.jpg",
     :occupation => "Alf",
-    :interests => "Bit a golf",
+    :interests => "Bit'a golf",
     :idea_of_a_good_time => "Struth, I don't know",
     :looking_for_in_a_partner => "A Ferrari chassis"
   },
@@ -137,12 +137,12 @@ celebs = [
     :idea_of_a_good_time => "Interpretive dance",
     :looking_for_in_a_partner => "A strong feminine energy"
   },
-  { :name => "Louise Dewberry", 
+  { :name => "Sheila Wheeler", 
     :image_url => "https://p1.piqsels.com/preview/394/535/785/portrait-elderly-woman-old-face-wrinkles-person.jpg",
-    :occupation => "Bloody AFL mate",
+    :occupation => "Footy diehard",
     :interests => "Footy mate!",
     :idea_of_a_good_time => "Footy mate!",
-    :looking_for_in_a_partner => "A bloody top bloke"
+    :looking_for_in_a_partner => "Full-forward"
   },
   { :name => "Richard Knee", 
     :image_url => "https://www.blackman.com.au/DICKIE%20KNEE.png",
@@ -151,12 +151,12 @@ celebs = [
     :idea_of_a_good_time => "Reading philosophy",
     :looking_for_in_a_partner => "Wisdom"
   },
-  { :name => "Carole Widdleton", 
+  { :name => "Lady Carole Widdleton", 
     :image_url => "https://image1.masterfile.com/getImage/Njk1LTA1NzcyNjY3ZW4uMDAwMDAwMDA=AEzmwl/695-05772667en_Masterfile.jpg",
-    :occupation => "Retired",
-    :interests => "Sundays",
-    :idea_of_a_good_time => "Havin' a laugh",
-    :looking_for_in_a_partner => "Someone younger"
+    :occupation => "Never needed one",
+    :interests => "Watching my wealth grow",
+    :idea_of_a_good_time => "Stocks and bondage",
+    :looking_for_in_a_partner => "An inheritance"
   },
   { :name => "Jenny Shutterstock", 
     :image_url => "https://i.pinimg.com/originals/80/72/7b/80727b340b3d04d84740f4eae2c93ef4.jpg",
