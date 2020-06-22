@@ -135,7 +135,7 @@ celebs = [
     :occupation => "Healer",
     :interests => "Feminist theory",
     :idea_of_a_good_time => "Interpretive dance",
-    :looking_for_in_a_partner => "A strong feminine energy"
+    :looking_for_in_a_partner => "A good listener"
   },
   { :name => "Sheila Wheeler", 
     :image_url => "https://p1.piqsels.com/preview/394/535/785/portrait-elderly-woman-old-face-wrinkles-person.jpg",
