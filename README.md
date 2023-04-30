@@ -1,7 +1,5 @@
 # Elderflower
 ## A Dating App for the Elderly 
-[See Here](https://celebrelation.herokuapp.com/)
-Can't be bothered creating a profile? Log in as geraldine@gmail.com (Password: 123)
  <hr /> 
 
 ### Brief  <hr /> 
