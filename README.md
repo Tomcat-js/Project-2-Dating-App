@@ -9,10 +9,7 @@ Build a full-stack database backed application
 * Encrypted passwords
 * Responsive Design
 * Full CRUD (Create, Read, Update, Delete) capabilities.
-* Tacky colour scheme and fonts 
-
-### Key Challenges  <hr /> 
-The biggest challenge for this project was storing user information in the database securely with password encryption. Ensuring the app was responsive and resized for smartphones was also important and required a bit more work. Finally, designing the app to be ugly enough to guarantee all users understood that it was a joke proved to be the funnest challenge of all.       
+* Tacky colour scheme and fonts  
 
 ### Original Wireframe  <hr /> 
 
